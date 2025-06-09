@@ -1,77 +1,99 @@
 import React from 'react';
-import { Users, Award, Target, Lightbulb } from 'lucide-react';
+import { Users, Award, Target, Lightbulb, ArrowUpRight, Code, Cloud, Database, Cog, Rocket, Shield } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About = () => {
   const { t } = useLanguage();
 
-  const stats = [
-    { number: "50+", label: t('about.stats.projectsCompleted') },
-    { number: "25+", label: t('about.stats.happyClients') },
-    { number: "3+", label: t('about.stats.yearsExperience') },
-    { number: "100%", label: t('about.stats.clientSatisfaction') }
-  ];
-
-  const values = [
+  const expertise = [
     {
-      icon: <Target className="h-8 w-8 text-blue-600" />,
-      title: t('about.values.missionDriven.title'),
-      description: t('about.values.missionDriven.description')
+      icon: <Cloud className="h-6 w-6" />,
+      title: "AWS Cloud Architecture",
+      description: "5+ years with CDK, CloudFormation, Terraform. Event-driven architectures for scalable applications",
+      color: 'from-orange-500 to-red-500'
     },
     {
-      icon: <Lightbulb className="h-8 w-8 text-orange-600" />,
-      title: t('about.values.innovationFirst.title'),
-      description: t('about.values.innovationFirst.description')
+      icon: <Cog className="h-6 w-6" />,
+      title: "DevOps & Infrastructure",
+      description: "Jenkins CI/CD, Kubernetes orchestration, Infrastructure as Code with enterprise-grade scalability",
+      color: 'from-blue-500 to-cyan-500'
     },
     {
-      icon: <Users className="h-8 w-8 text-green-600" />,
-      title: t('about.values.clientFocused.title'),
-      description: t('about.values.clientFocused.description')
+      icon: <Rocket className="h-6 w-6" />,
+      title: "Microservices Architecture",
+      description: "Event-driven microservices using Agile methodology for distributed and resilient systems",
+      color: 'from-purple-500 to-pink-500'
     },
     {
-      icon: <Award className="h-8 w-8 text-purple-600" />,
-      title: t('about.values.excellence.title'),
-      description: t('about.values.excellence.description')
+      icon: <Code className="h-6 w-6" />,
+      title: "Full-Stack Development",
+      description: ".NET backend, Angular/Next.js frontend, delivering production-ready applications",
+      color: 'from-green-500 to-emerald-500'
+    },
+    {
+      icon: <Database className="h-6 w-6" />,
+      title: "Modern Tech Stack",
+      description: "Supabase, PostgreSQL, MySQL with clean architecture and best practices",
+      color: 'from-indigo-500 to-purple-500'
+    },
+    {
+      icon: <Shield className="h-6 w-6" />,
+      title: "Enterprise Security",
+      description: "Azure Active Directory integration, secure authentication, and compliance standards",
+      color: 'from-red-500 to-pink-500'
     }
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-20 items-start">
+          {/* Left Column - Sparknoma DNA */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('about.title')}</h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                {t('about.description1')}
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                {t('about.description2')}
-              </p>
-            </div>
-
-            <div className="grid grid-cols-2 gap-8">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">{stat.number}</div>
-                  <div className="text-gray-600">{stat.label}</div>
-                </div>
-              ))}
+              <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
+                Sparknoma DNA
+              </h2>
+              <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
+                <p>
+                  <strong>Sparknoma</strong> is a pure player, entirely independent, a true technology hub 
+                  specializing in <strong>AWS Cloud</strong>, <strong>DevOps</strong>, and <strong>AI-powered solutions</strong>.
+                </p>
+                <p>
+                  This team of passionate engineers is convinced that today, a <strong>DevOps approach</strong> is 
+                  inseparable from an opening towards the <strong>CLOUD</strong> for certain services in a context 
+                  where <strong>AI and data processing</strong> are increasingly complex.
+                </p>
+                <p>
+                  With over <strong>7 years of experience</strong> in DevOps applications, we deliver 
+                  <strong>microservices architectures</strong> and <strong>Kubernetes applications</strong> using 
+                  <strong>Agile methodology</strong> and <strong>event-driven architecture</strong> for scalable, 
+                  resilient systems.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="space-y-6">
-            {values.map((value, index) => (
-              <div key={index} className="flex space-x-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
-                <div className="flex-shrink-0">
-                  {value.icon}
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h3>
-                  <p className="text-gray-600">{value.description}</p>
-                </div>
+          {/* Right Column - Technical Expertise */}
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Technical Expertise</h3>
+              <div className="space-y-4">
+                {expertise.map((skill, index) => (
+                  <div key={index} className="group bg-white rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-100">
+                    <div className="flex items-start space-x-4">
+                      <div className={`flex-shrink-0 p-3 rounded-xl bg-gradient-to-br ${skill.color} text-white group-hover:scale-110 transition-transform duration-300`}>
+                        {skill.icon}
+                      </div>
+                      <div className="flex-1">
+                        <h4 className="text-lg font-bold text-gray-900 mb-2">{skill.title}</h4>
+                        <p className="text-gray-600 text-sm leading-relaxed">{skill.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

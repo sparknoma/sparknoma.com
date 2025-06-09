@@ -143,13 +143,35 @@ body {
   animation: pulse-glow 2s ease-in-out infinite;
 }
 
-/* Improved button hover effects */
+/* Wyll.io inspired design system */
+.text-display {
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.9;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.text-hero {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.text-section {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Improved button styles */
 .btn-primary {
-  @apply bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl;
+  @apply bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:scale-105;
 }
 
 .btn-secondary {
-  @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300;
+  @apply border border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 rounded-full font-medium transition-all duration-300;
 }
 
 /* Glass morphism effect */
@@ -161,7 +183,7 @@ body {
 
 /* Improved card hover effects */
 .card-hover {
-  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl;
+  @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl;
 }
 
 /* Loading skeleton animation */
@@ -182,7 +204,7 @@ body {
 
 /* Improved focus states for accessibility */
 .focus-ring {
-  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  @apply focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2;
 }
 
 /* Smooth transitions for all interactive elements */
@@ -206,14 +228,44 @@ body {
 }
 
 /* Improved typography scale */
-.text-hero {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  line-height: 1.1;
-  font-weight: 800;
-}
-
 .text-hero-sub {
   font-size: clamp(1.125rem, 2.5vw, 1.5rem);
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+/* Wyll.io inspired spacing system */
+.section-padding {
+  @apply py-32;
+}
+
+.container-padding {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+/* Enhanced gradient backgrounds */
+.gradient-bg-1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-bg-2 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.gradient-bg-3 {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+/* Improved text selection */
+::selection {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Better focus indicators */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
 }

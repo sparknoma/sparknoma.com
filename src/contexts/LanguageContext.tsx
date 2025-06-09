@@ -77,7 +77,7 @@ const translations = {
       titleHighlight: "Transformation",
       subtitle: "We craft cutting-edge technology solutions powered by AWS cloud infrastructure and artificial intelligence to accelerate your business growth and digital innovation.",
       getStarted: "Get Started Today",
-      viewWork: "View Our Portfolio",
+      viewWork: "Watch our story",
       awsCertified: "AWS Certified",
       aiPowered: "AI Powered",
       customSolutions: "Custom Solutions"
@@ -101,27 +101,15 @@ const translations = {
       },
       
       webDev: {
-        title: "Modern Web Development",
-        description: "High-performance, responsive web applications built with the latest technologies and frameworks, delivering exceptional user experiences across all devices.",
-        features: ["Responsive Design", "Performance Optimization", "SEO Excellence", "Modern Frameworks"]
+        title: "Full-Stack Development & Custom Solutions",
+        description: "High-performance web applications and bespoke software solutions built with modern technologies, delivering exceptional user experiences and scalable architecture tailored to your unique business requirements.",
+        features: ["Responsive Web Applications", "Custom Software Development", "API Integration & Microservices", "Performance Optimization", "SEO Excellence", "Scalable Architecture"]
       },
       
-      customSoftware: {
-        title: "Custom Software Solutions",
-        description: "Bespoke software applications designed and developed specifically for your unique business requirements with scalable architecture and maintainable code.",
-        features: ["Tailored Development", "API Integration", "Scalable Architecture", "Ongoing Support"]
-      },
-      
-      dataSolutions: {
-        title: "Data Analytics & BI",
-        description: "Comprehensive data management, advanced analytics, and business intelligence solutions to transform raw data into actionable insights for strategic decision-making.",
-        features: ["Data Warehousing", "Real-time Analytics", "Interactive Dashboards", "Business Intelligence"]
-      },
-      
-      security: {
-        title: "Cybersecurity & Compliance",
-        description: "Robust security frameworks and compliance solutions to safeguard your digital assets, protect sensitive data, and meet industry regulatory standards.",
-        features: ["Security Assessments", "Compliance Management", "Data Protection", "Risk Mitigation"]
+      devops: {
+        title: "DevOps & CI/CD",
+        description: "Streamlined development workflows with automated CI/CD pipelines, Kubernetes orchestration, and Infrastructure as Code to accelerate deployment cycles and ensure reliable, scalable applications.",
+        features: ["CI/CD Pipeline Automation", "Kubernetes Orchestration", "Infrastructure as Code", "Container Management", "Monitoring & Alerting", "Deployment Strategies"]
       }
     },
 
@@ -200,19 +188,19 @@ const translations = {
       values: {
         missionDriven: {
           title: "Mission-Driven Excellence",
-          description: "We are committed to delivering technology solutions that create tangible business value, drive meaningful outcomes, and contribute to your long-term success."
+          description: "We deliver technology solutions that create tangible business value and drive meaningful outcomes for long-term success."
         },
         innovationFirst: {
           title: "Innovation Leadership",
-          description: "We stay at the forefront of emerging technologies, ensuring our clients benefit from the latest innovations in cloud computing, AI, and digital transformation."
+          description: "We stay at the forefront of emerging technologies, ensuring our clients benefit from the latest innovations."
         },
         clientFocused: {
           title: "Client-Centric Approach",
-          description: "Your success is our ultimate priority. We work as your trusted technology partner, understanding your unique challenges and delivering tailored solutions."
+          description: "Your success is our priority. We work as your trusted technology partner, understanding your unique challenges."
         },
         excellence: {
           title: "Uncompromising Quality",
-          description: "We maintain the highest standards of excellence in every aspect of our work, from code quality and security to customer service and project delivery."
+          description: "We maintain the highest standards of excellence in every aspect of our work, from code quality to customer service."
         }
       }
     },
@@ -225,7 +213,7 @@ const translations = {
       email: "Email",
       phone: "Phone",
       location: "Location",
-      remote: "Global Remote Services",
+      remote: "Nouakchott, Mauritania",
       
       form: {
         name: "Full Name",
@@ -271,7 +259,7 @@ const translations = {
       titleHighlight: "Transformation Numérique",
       subtitle: "Nous concevons des solutions technologiques de pointe alimentées par l'infrastructure cloud AWS et l'intelligence artificielle pour accélérer la croissance et l'innovation numérique de votre entreprise.",
       getStarted: "Commencer Maintenant",
-      viewWork: "Voir Notre Portfolio",
+      viewWork: "Voir Notre Histoire",
       awsCertified: "Certifié AWS",
       aiPowered: "Alimenté par l'IA",
       customSolutions: "Solutions Sur Mesure"
@@ -295,27 +283,15 @@ const translations = {
       },
       
       webDev: {
-        title: "Développement Web Moderne",
-        description: "Applications web haute performance et réactives construites avec les dernières technologies et frameworks, offrant des expériences utilisateur exceptionnelles sur tous les appareils.",
-        features: ["Design Réactif", "Optimisation des Performances", "Excellence SEO", "Frameworks Modernes"]
+        title: "Développement Full-Stack & Solutions Personnalisées",
+        description: "Applications web haute performance et solutions logicielles sur mesure construites avec des technologies modernes, offrant des expériences utilisateur exceptionnelles et une architecture évolutive adaptée à vos exigences commerciales uniques.",
+        features: ["Applications Web Réactives", "Développement Logiciel Personnalisé", "Intégration API & Microservices", "Optimisation des Performances", "Excellence SEO", "Architecture Évolutive"]
       },
       
-      customSoftware: {
-        title: "Solutions Logicielles Sur Mesure",
-        description: "Applications logicielles personnalisées conçues et développées spécifiquement pour vos exigences commerciales uniques avec une architecture évolutive et un code maintenable.",
-        features: ["Développement Personnalisé", "Intégration API", "Architecture Évolutive", "Support Continu"]
-      },
-      
-      dataSolutions: {
-        title: "Analyse de Données et BI",
-        description: "Solutions complètes de gestion des données, d'analyse avancée et d'intelligence d'affaires pour transformer les données brutes en insights exploitables pour la prise de décision stratégique.",
-        features: ["Entrepôt de Données", "Analyse en Temps Réel", "Tableaux de Bord Interactifs", "Intelligence d'Affaires"]
-      },
-      
-      security: {
-        title: "Cybersécurité et Conformité",
-        description: "Cadres de sécurité robustes et solutions de conformité pour protéger vos actifs numériques, sécuriser les données sensibles et respecter les normes réglementaires de l'industrie.",
-        features: ["Évaluations de Sécurité", "Gestion de la Conformité", "Protection des Données", "Atténuation des Risques"]
+      devops: {
+        title: "DevOps & CI/CD",
+        description: "Flux de développement rationalisés avec des pipelines CI/CD automatisés, orchestration Kubernetes et Infrastructure as Code pour accélérer les cycles de déploiement et assurer des applications fiables et évolutives.",
+        features: ["Automatisation Pipeline CI/CD", "Orchestration Kubernetes", "Infrastructure as Code", "Gestion des Conteneurs", "Surveillance et Alertes", "Stratégies de Déploiement"]
       }
     },
 
@@ -419,7 +395,7 @@ const translations = {
       email: "Email",
       phone: "Téléphone",
       location: "Localisation",
-      remote: "Services Mondiaux à Distance",
+      remote: "Nouakchott, Mauritanie",
       
       form: {
         name: "Nom Complet",
@@ -465,7 +441,7 @@ const translations = {
       titleHighlight: "التحول الرقمي",
       subtitle: "نحن نصمم حلول تقنية متطورة مدعومة بالبنية التحتية السحابية لـ AWS والذكاء الاصطناعي لتسريع نمو أعمالك والابتكار الرقمي.",
       getStarted: "ابدأ رحلتك اليوم",
-      viewWork: "استعرض أعمالنا",
+      viewWork: "شاهد قصتنا",
       awsCertified: "معتمد من AWS",
       aiPowered: "مدعوم بالذكاء الاصطناعي",
       customSolutions: "حلول مخصصة"
@@ -489,27 +465,15 @@ const translations = {
       },
       
       webDev: {
-        title: "تطوير الويب الحديث",
-        description: "تطبيقات ويب عالية الأداء ومتجاوبة مبنية بأحدث التقنيات والأطر، تقدم تجارب مستخدم استثنائية عبر جميع الأجهزة.",
-        features: ["تصميم متجاوب", "تحسين الأداء", "تميز في محركات البحث", "أطر عمل حديثة"]
+        title: "التطوير الشامل والحلول المخصصة",
+        description: "تطبيقات ويب عالية الأداء وحلول برمجية مخصصة مبنية بتقنيات حديثة، تقدم تجارب مستخدم استثنائية وهندسة قابلة للتوسع مصممة خصيصاً لمتطلبات أعمالك الفريدة.",
+        features: ["تطبيقات ويب متجاوبة", "تطوير برمجيات مخصصة", "تكامل واجهات برمجة التطبيقات والخدمات المصغرة", "تحسين الأداء", "تميز في محركات البحث", "هندسة قابلة للتوسع"]
       },
       
-      customSoftware: {
-        title: "حلول برمجية مخصصة",
-        description: "تطبيقات برمجية مخصصة مصممة ومطورة خصيصاً لمتطلبات أعمالك الفريدة مع هندسة قابلة للتوسع وكود قابل للصيانة.",
-        features: ["تطوير مخصص", "تكامل واجهات برمجة التطبيقات", "هندسة قابلة للتوسع", "دعم مستمر"]
-      },
-      
-      dataSolutions: {
-        title: "تحليل البيانات وذكاء الأعمال",
-        description: "حلول شاملة لإدارة البيانات والتحليل المتقدم وذكاء الأعمال لتحويل البيانات الخام إلى رؤى قابلة للتنفيذ لاتخاذ القرارات الاستراتيجية.",
-        features: ["مستودع البيانات", "التحليل في الوقت الفعلي", "لوحات تحكم تفاعلية", "ذكاء الأعمال"]
-      },
-      
-      security: {
-        title: "الأمن السيبراني والامتثال",
-        description: "أطر أمان قوية وحلول امتثال لحماية أصولك الرقمية وتأمين البيانات الحساسة وتلبية المعايير التنظيمية للصناعة.",
-        features: ["تقييمات الأمان", "إدارة الامتثال", "حماية البيانات", "تخفيف المخاطر"]
+      devops: {
+        title: "DevOps و CI/CD",
+        description: "سير عمل تطوير مبسط مع خطوط أنابيب CI/CD آلية، وتنسيق Kubernetes، والبنية التحتية كرمز لتسريع دورات النشر وضمان تطبيقات موثوقة وقابلة للتوسع.",
+        features: ["أتمتة خط أنابيب CI/CD", "تنسيق Kubernetes", "البنية التحتية كرمز", "إدارة الحاويات", "المراقبة والتنبيهات", "استراتيجيات النشر"]
       }
     },
 
@@ -613,7 +577,7 @@ const translations = {
       email: "البريد الإلكتروني",
       phone: "الهاتف",
       location: "الموقع",
-      remote: "خدمات عالمية عن بُعد",
+      remote: "  نواكشوط، موريتاني ",
       
       form: {
         name: "الاسم الكامل",
