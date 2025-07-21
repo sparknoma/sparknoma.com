@@ -1,35 +1,32 @@
 import React from 'react';
 import { Building2, MapPin, Calendar } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
 
 const Experience = () => {
-  const { t } = useLanguage();
-
   const companies = [
     {
       name: "Airbus",
-      location: t('experience.companies.airbus.location'),
-      period: t('experience.companies.airbus.period'),
-      type: t('experience.companies.airbus.type'),
-      description: t('experience.companies.airbus.description'),
+      location: "Aerospace Sector",
+      period: "5+ Years",
+      type: "Aerospace Engineering",
+      description: "Mission-critical applications using AWS, SAFe Agile methodology, and event-driven architectures",
       color: "from-blue-500 to-cyan-500",
       logo: "A"
     },
     {
       name: "ETT S.p.A.",
-      location: t('experience.companies.ett.location'),
-      period: t('experience.companies.ett.period'),
-      type: t('experience.companies.ett.type'),
-      description: t('experience.companies.ett.description'),
+      location: "Genoa, Italy", 
+      period: "2017-2022",
+      type: "Technology Partner",
+      description: "Fullstack development with .NET and Angular, delivering enterprise solutions across multiple industries",
       color: "from-purple-500 to-pink-500",
       logo: "ETT"
     },
     {
       name: "Prada",
-      location: t('experience.companies.prada.location'),
-      period: t('experience.companies.prada.period'),
-      type: t('experience.companies.prada.type'),
-      description: t('experience.companies.prada.description'),
+      location: "Global",
+      period: "2019-2020",
+      type: "Luxury Brand",
+      description: "Digital signage CMS for worldwide stores, managing multimedia content with .NET and Angular",
       color: "from-green-500 to-emerald-500",
       logo: "P"
     }
@@ -37,23 +34,23 @@ const Experience = () => {
 
   return (
     <section id="experience" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight px-2">
-            {t('experience.title')}
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+            Our Engineers Worked At Companies Like
           </h2>
-          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-light px-4">
-            {t('experience.subtitle')}
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+            Bringing expertise from aerospace, technology, and luxury brands to deliver world-class solutions
           </p>
         </div>
 
         {/* Companies */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {companies.map((company, index) => (
             <div 
               key={index} 
-              className="group bg-white rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 relative overflow-hidden"
+              className="group bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 relative overflow-hidden"
             >
               {/* Gradient Background */}
               <div className={`absolute inset-0 bg-gradient-to-br ${company.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>

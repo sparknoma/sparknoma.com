@@ -60,7 +60,7 @@ const TrainingPrograms = () => {
 
   return (
     <section id="training" className="py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-20">
           {/* Hidden badge - commented out for later use */}
@@ -68,35 +68,35 @@ const TrainingPrograms = () => {
             <GraduationCap className="h-4 w-4" />
             <span>{t('training.badge')}</span>
           </div> */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight px-2">
+          <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
             {t('training.title')}
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-light px-4">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
             {t('training.subtitle')}
           </p>
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {features.map((feature, index) => (
             <div key={index} className="text-center group">
-              <div className="inline-flex p-3 sm:p-4 rounded-2xl bg-gray-50 group-hover:bg-gray-100 transition-colors mb-4">
+              <div className="inline-flex p-4 rounded-2xl bg-gray-50 group-hover:bg-gray-100 transition-colors mb-4">
                 <div className="text-gray-600 group-hover:text-gray-900 transition-colors">
                   {feature.icon}
                 </div>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">{feature.title}</h3>
-              <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{feature.description}</p>
+              <h3 className="font-semibold text-gray-900 mb-2">{feature.title}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>
 
         {/* Programs Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-20">
+        <div className="grid lg:grid-cols-3 gap-8 mb-20">
           {programs.map((program, index) => (
             <div 
               key={index} 
-              className="group bg-gray-50 rounded-3xl p-6 sm:p-8 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-transparent hover:border-gray-100 relative overflow-hidden"
+              className="group bg-gray-50 rounded-3xl p-8 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-transparent hover:border-gray-100 relative overflow-hidden"
             >
               {/* Gradient Background */}
               <div className={`absolute inset-0 bg-gradient-to-br ${program.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>

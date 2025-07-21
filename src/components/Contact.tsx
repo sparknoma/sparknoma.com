@@ -27,22 +27,22 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight px-2">
+          <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
             {t('contact.title')}
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-light px-4">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
             {t('contact.subtitle')}
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
+        <div className="grid lg:grid-cols-2 gap-16">
           {/* Left Column - Contact Info */}
           <div className="space-y-12">
             <div>
-              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">{t('contact.getInTouch')}</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">{t('contact.getInTouch')}</h3>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4 group">
                   <div className="w-12 h-12 bg-gray-100 group-hover:bg-gray-200 rounded-2xl flex items-center justify-center transition-colors">

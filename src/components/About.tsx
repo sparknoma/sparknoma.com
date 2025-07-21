@@ -46,23 +46,29 @@ const About = () => {
 
   return (
     <section id="about" className="py-32 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-start">
           {/* Left Column - Sparknoma DNA */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
-                {t('about.dnaTitle')}
+              <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
+                Sparknoma DNA
               </h2>
-              <div className="space-y-6 text-base sm:text-lg text-gray-600 leading-relaxed font-light">
+              <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
                 <p>
-                  {t('about.dnaDescription1')}
+                  <strong>Sparknoma</strong> is a pure player, entirely independent, a true technology hub 
+                  specializing in <strong>AWS Cloud</strong>, <strong>DevOps</strong>, and <strong>AI-powered solutions</strong>.
                 </p>
                 <p>
-                  {t('about.dnaDescription2')}
+                  This team of passionate engineers is convinced that today, a <strong>DevOps approach</strong> is 
+                  inseparable from an opening towards the <strong>CLOUD</strong> for certain services in a context 
+                  where <strong>AI and data processing</strong> are increasingly complex.
                 </p>
                 <p>
-                  {t('about.dnaDescription3')}
+                  With over <strong>7 years of experience</strong> in DevOps applications, we deliver 
+                  <strong>microservices architectures</strong> and <strong>Kubernetes applications</strong> using 
+                  <strong>Agile methodology</strong> and <strong>event-driven architecture</strong> for scalable, 
+                  resilient systems.
                 </p>
               </div>
             </div>
@@ -71,7 +77,7 @@ const About = () => {
           {/* Right Column - Technical Expertise */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('about.technicalExpertise')}</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Technical Expertise</h3>
               <div className="space-y-4">
                 {expertise.map((skill, index) => (
                   <div key={index} className="group bg-white rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-100">

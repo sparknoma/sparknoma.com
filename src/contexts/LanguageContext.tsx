@@ -65,7 +65,6 @@ const translations = {
     // Header
     header: {
       home: "Home",
-      experience: "Experience",
       services: "Services",
       about: "About",
       contact: "Contact",
@@ -111,32 +110,6 @@ const translations = {
         title: "DevOps & CI/CD",
         description: "Streamlined development workflows with automated CI/CD pipelines, Kubernetes orchestration, and Infrastructure as Code to accelerate deployment cycles and ensure reliable, scalable applications.",
         features: ["CI/CD Pipeline Automation", "Kubernetes Orchestration", "Infrastructure as Code", "Container Management", "Monitoring & Alerting", "Deployment Strategies"]
-      }
-    },
-    
-    // Experience
-    experience: {
-      title: "Our Engineers Worked At Companies Like",
-      subtitle: "Bringing expertise from aerospace, technology, and luxury brands to deliver world-class solutions",
-      companies: {
-        airbus: {
-          location: "Aerospace Sector",
-          period: "5+ Years",
-          type: "Aerospace Engineering",
-          description: "Mission-critical applications using AWS, SAFe Agile methodology, and event-driven architectures"
-        },
-        ett: {
-          location: "Genoa, Italy",
-          period: "2017-2022",
-          type: "Technology Partner",
-          description: "Fullstack development with .NET and Angular, delivering enterprise solutions across multiple industries"
-        },
-        prada: {
-          location: "Global",
-          period: "2019-2020",
-          type: "Luxury Brand",
-          description: "Digital signage CMS for worldwide stores, managing multimedia content with .NET and Angular"
-        }
       }
     },
 
@@ -202,11 +175,6 @@ const translations = {
     // About
     about: {
       title: "About Sparknoma",
-      dnaTitle: "Sparknoma DNA",
-      dnaDescription1: "Sparknoma is a pure player, entirely independent, a true technology hub specializing in AWS Cloud, DevOps, and AI-powered solutions.",
-      dnaDescription2: "This team of passionate engineers is convinced that today, a DevOps approach is inseparable from an opening towards the CLOUD for certain services in a context where AI and data processing are increasingly complex.",
-      dnaDescription3: "With over 7 years of experience in DevOps applications, we deliver microservices architectures and Kubernetes applications using Agile methodology and event-driven architecture for scalable, resilient systems.",
-      technicalExpertise: "Technical Expertise",
       description1: "At Sparknoma, we are passionate about harnessing the transformative power of technology to drive business success. We specialize in creating innovative, scalable solutions that leverage cutting-edge cloud computing and artificial intelligence to help organizations thrive in today's digital landscape.",
       description2: "Our diverse team of expert developers, certified cloud architects, and AI specialists collaborate to deliver world-class solutions that not only meet the highest technical standards but also align perfectly with your strategic business objectives and growth aspirations.",
       
@@ -279,7 +247,6 @@ const translations = {
     // Header
     header: {
       home: "Accueil",
-      experience: "Expérience",
       services: "Services",
       about: "À propos",
       contact: "Contact",
@@ -328,31 +295,6 @@ const translations = {
       }
     },
 
-    // Experience
-    experience: {
-      title: "Nos Ingénieurs Ont Travaillé Dans Des Entreprises Comme",
-      subtitle: "Apportant une expertise de l'aérospatiale, de la technologie et des marques de luxe pour livrer des solutions de classe mondiale",
-      companies: {
-        airbus: {
-          location: "Secteur Aérospatial",
-          period: "5+ Années",
-          type: "Ingénierie Aérospatiale",
-          description: "Applications critiques utilisant AWS, méthodologie SAFe Agile et architectures pilotées par les événements"
-        },
-        ett: {
-          location: "Gênes, Italie",
-          period: "2017-2022",
-          type: "Partenaire Technologique",
-          description: "Développement fullstack avec .NET et Angular, livrant des solutions d'entreprise dans plusieurs industries"
-        },
-        prada: {
-          location: "Mondial",
-          period: "2019-2020",
-          type: "Marque de Luxe",
-          description: "CMS de signalisation numérique pour les magasins du monde entier, gérant le contenu multimédia avec .NET et Angular"
-        }
-      }
-    },
     // Training Programs
     training: {
       badge: "Formation à la Demande",
@@ -415,11 +357,6 @@ const translations = {
     // About
     about: {
       title: "À propos de Sparknoma",
-      dnaTitle: "ADN Sparknoma",
-      dnaDescription1: "Sparknoma est un pure player, entièrement indépendant, un véritable hub technologique spécialisé dans AWS Cloud, DevOps et les solutions alimentées par l'IA.",
-      dnaDescription2: "Cette équipe d'ingénieurs passionnés est convaincue qu'aujourd'hui, une approche DevOps est indissociable d'une ouverture vers le CLOUD pour certains services dans un contexte où l'IA et le traitement des données sont de plus en plus complexes.",
-      dnaDescription3: "Avec plus de 7 ans d'expérience dans les applications DevOps, nous livrons des architectures de microservices et des applications Kubernetes en utilisant la méthodologie Agile et l'architecture événementielle pour des systèmes évolutifs et résilients.",
-      technicalExpertise: "Expertise Technique",
       description1: "Chez Sparknoma, nous sommes passionnés par l'exploitation du pouvoir transformateur de la technologie pour stimuler le succès commercial. Nous nous spécialisons dans la création de solutions innovantes et évolutives qui exploitent le cloud computing de pointe et l'intelligence artificielle pour aider les organisations à prospérer dans le paysage numérique d'aujourd'hui.",
       description2: "Notre équipe diversifiée de développeurs experts, d'architectes cloud certifiés et de spécialistes en IA collaborent pour livrer des solutions de classe mondiale qui non seulement répondent aux plus hauts standards techniques mais s'alignent aussi parfaitement avec vos objectifs commerciaux stratégiques et vos aspirations de croissance.",
       
@@ -492,7 +429,6 @@ const translations = {
     // Header
     header: {
       home: "الرئيسية",
-      experience: "الخبرة",
       services: "خدماتنا",
       about: "من نحن",
       contact: "تواصل معنا",
@@ -538,32 +474,6 @@ const translations = {
         title: "DevOps و CI/CD",
         description: "سير عمل تطوير مبسط مع خطوط أنابيب CI/CD آلية، وتنسيق Kubernetes، والبنية التحتية كرمز لتسريع دورات النشر وضمان تطبيقات موثوقة وقابلة للتوسع.",
         features: ["أتمتة خط أنابيب CI/CD", "تنسيق Kubernetes", "البنية التحتية كرمز", "إدارة الحاويات", "المراقبة والتنبيهات", "استراتيجيات النشر"]
-      }
-    },
-    
-    // Experience
-    experience: {
-      title: "مهندسونا عملوا في شركات مثل",
-      subtitle: "جلب الخبرة من الطيران والتكنولوجيا والعلامات التجارية الفاخرة لتقديم حلول عالمية المستوى",
-      companies: {
-        airbus: {
-          location: "قطاع الطيران",
-          period: "5+ سنوات",
-          type: "هندسة الطيران",
-          description: "تطبيقات حرجة باستخدام AWS ومنهجية SAFe Agile والهندسة المعمارية المدفوعة بالأحداث"
-        },
-        ett: {
-          location: "جنوة، إيطاليا",
-          period: "2017-2022",
-          type: "شريك تقني",
-          description: "تطوير شامل مع .NET و Angular، تقديم حلول المؤسسات عبر صناعات متعددة"
-        },
-        prada: {
-          location: "عالمي",
-          period: "2019-2020",
-          type: "علامة تجارية فاخرة",
-          description: "نظام إدارة المحتوى للافتات الرقمية للمتاجر في جميع أنحاء العالم، إدارة المحتوى متعدد الوسائط مع .NET و Angular"
-        }
       }
     },
 
@@ -629,11 +539,6 @@ const translations = {
     // About
     about: {
       title: "حول سبارك نوما",
-      dnaTitle: "الحمض النووي لسبارك نوما",
-      dnaDescription1: "سبارك نوما هي شركة متخصصة بحتة، مستقلة تماماً، مركز تقني حقيقي متخصص في AWS Cloud وDevOps والحلول المدعومة بالذكاء الاصطناعي.",
-      dnaDescription2: "هذا الفريق من المهندسين المتحمسين مقتنع بأنه اليوم، نهج DevOps لا ينفصل عن الانفتاح نحو السحابة لخدمات معينة في سياق حيث الذكاء الاصطناعي ومعالجة البيانات معقدة بشكل متزايد.",
-      dnaDescription3: "مع أكثر من 7 سنوات من الخبرة في تطبيقات DevOps، نقدم هندسة الخدمات المصغرة وتطبيقات Kubernetes باستخدام منهجية Agile والهندسة المدفوعة بالأحداث للأنظمة القابلة للتوسع والمرنة.",
-      technicalExpertise: "الخبرة التقنية",
       description1: "في سبارك نوما، نحن متحمسون لاستغلال القوة التحويلية للتكنولوجيا لدفع النجاح التجاري. نحن متخصصون في إنشاء حلول مبتكرة وقابلة للتوسع تستفيد من الحوسبة السحابية المتطورة والذكاء الاصطناعي لمساعدة المؤسسات على الازدهار في المشهد الرقمي اليوم.",
       description2: "فريقنا المتنوع من المطورين الخبراء ومهندسي السحابة المعتمدين وأخصائيي الذكاء الاصطناعي يتعاونون لتقديم حلول عالمية المستوى لا تلبي فقط أعلى المعايير التقنية ولكن تتماشى أيضاً بشكل مثالي مع أهدافك التجارية الاستراتيجية وطموحات النمو.",
       
